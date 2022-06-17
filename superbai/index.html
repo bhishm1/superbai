@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>superbai.com </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<style>
+  
+.book  a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+
+
+.book  a:hover {
+  color: white;
+  background: orange;
+  box-shadow: 0 0 10px orange, 0 0 40px orange, 0 0 80px orange;
+  transition-delay: 1s;
+}
+
+
+.book  a span {
+  position: absolute;
+  display: block;
+}
+
+
+
+
+.book  a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, orange);
+}
+
+
+
+.book  a:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+
+
+.book  a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, orange);
+}
+
+.book  a:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+
+
+.book  a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, orange);
+}
+
+.book  a:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+
+
+.book  a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, orange);
+}
+
+.book  a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+</style>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    <div class="logo" style="color: #c3d0d8; opacity: 100%;">
+        superbai.com
+        <div><img src="logo.png" alt="" style="opacity:1;"></div>
+      </div>
+
+    
+
+    <div id="menu-bar" class=""></div>
+
+    <nav class="nav">
+        <ul>
+        <a href="#home">home</a>
+        <a href="#speciality">speciality</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+    </ul>
+    </nav>
+    <nav role='navigation'>
+        <div id="menuToggle">
+          <input type="checkbox" />
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu" style="opacity:100%;">
+            <a href="#home"><li>Home</li></a>
+            <a href="#speciality"><li>speciality</li></a>
+            <a href="#gallery"><li>gallery</li></a>
+            <a href="#review"><li>review</li></a>
+            <a href="#order"><li>order</li></a>
+          </ul>
+        </div>
+        </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+     
+    
+
+    <div class="content">
+       
+  <h1>
+    <span class="maid"> MAID</span>   <span style="-webkit-text-stroke: 1px rgb(255, 255, 255);font-size: 84px; color: transparent; background: url('back.png');-webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    "> FOR YOU</span>
+  </h1>
+  <p>Our cleaning experts deliver the highest quality of clean you can always count,<br>
+    let us help you with all of cleaning and disinfecting responsibilty now. 
+  </p>
+
+  <div class="book">
+
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      BOOK NOW
+    </a>
+  </div>
+
+    </div>
+
+
+    <div class="image">
+        <img src="yellow.png" alt="">
+    </div>
+   
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- speciality section starts  -->
+
+<section class="speciality" id="speciality">
+
+  <h1 class="heading " style="color:orange;"> our  <span style="color:#424e5f;">speciality</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img class="image" src="bathroom (1).png" alt="">
+          <div class="content">
+              <img src="spotless bathroom.png" alt="">
+              <h3>Spotless Bathroom</h3>
+              <p> Due to moisture, steam and grime, bathrooms are more prone to bacteria, fungus and germs.</p>
+          </div>
+      </div>
+      <div class="box">
+          <img class="image" src="cook.png" alt="">
+          <div class="content">
+              <img src="cooking1.png" alt="">
+              <h3>Hygienic cooking</h3>
+              <p>Kitchen hygiene is defined as the maintenance of high standards of cleanliness and sanitation. </p>
+          </div>
+      </div>
+      <div class="box">
+          <img class="image" src="deep2.png" alt="">
+          <div class="content">
+              <img src="deep (1).png" alt="">
+              <h3>Deep cleaning</h3>
+              <p>Deep cleaning goes further to get rid of dirt, grime, soap scum, and other gunk around your home.</p>
+          </div>
+      </div>
+      <div class="box">
+          <img class="image" src="healthy indoor.jpg" alt="">
+          <div class="content">
+              <img src="ac.png" alt="">
+              <h3>Ac Services</h3>
+              <p>All leading AC brands recommend seasonal cleaning and periodic maintenance to remove impurities.</p>
+          </div>
+      </div>
+      
+
+  </div>
+
+</section>
+
+<!-- speciality section ends -->
+
+
+<!-- steps section starts  -->
+
+<div class="step-container">
+
+  <h1 class="heading" style="color:orange;"> how <span style="color:#424e5f;">it </span> <span style="color:#424e5f;">works</span></h1>
+
+  <section class="steps">
+
+      <div class="box">
+          <img src="schedule.png" alt="">
+          <h3>schedule Online</h3>
+      </div>
+      <div class="box">
+          <img src="card.jpg" style="width:62%;" alt="">
+          <h3>Pay Online Easily</h3>
+      </div>
+      <div class="box">
+          <img src="download (5).jpg" alt="">
+          <h3>Get Your House Cleaned</h3>
+      </div>
+     
+  
+  </section>
+
+</div>
+
+<!-- steps section ends -->
+
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+  <h1 class="heading">  <span style="color:orange;">our</span>  <span> gallery </span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="1.jpg" alt="">
+          <div class="content">
+              <h3>Kitchen cleaning</h3>
+              <a style= "background-color: orange;"   href="#" class="btn">Book now  </a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="2.jpg" alt="">
+          <div class="content">
+              <h3>Ac Repair</h3>
+              <a style= "background-color: orange;"href="#" class="btn">Book now  </a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="3.jpg" alt="">
+          <div class="content">
+              <h3>House cleaning</h3>
+              <a style= "background-color: orange;"href="#" class="btn">Book now  </a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="4.jpg" alt="">
+          <div class="content">
+              <h3>Office cleaning</h3>
+              <a style= "background-color: orange;"href="#" class="btn">Book now  </a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="5.jpg" alt="">
+          <div class="content">
+              <h3>accesories cleaning</h3>
+
+              <a style= "background-color: orange;"href="#" class="btn">Book now  </a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="6.jpg" alt="">
+          <div class="content">
+              <h3>Floor Cleaning</h3>
+
+              <a style= "background-color: orange;"href="#" class="btn">Book now  </a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="7.jpg" alt="">
+          <div class="content">
+              <h3>Ac Services</h3>
+
+              <a style= "background-color: orange;"href="#" class="btn">Book now  </a>
+          </div>
+      </div>
+      
+      </div>
+
+  </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+  <h1 class="heading"> <span style="color:orange;">our
+  </span> customers <span>reviews</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="girl.jpg" alt="">
+          <h3>ana </h3>
+          <div class="stars">
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+          </div>
+          <p>The quality of cleaning is excellent. They are dependable. A morning appointment is very important to me and they always keep that time frame.</p>
+      </div>
+      <div class="box">
+          <img src="men.jpg" alt="">
+          <h3>David</h3>
+          <div class="stars">
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+          </div>
+          <p>The quality of cleaning is excellent. They are dependable. A morning appointment is very important to me and they always keep that time frame.</p>
+      </div>
+      <div class="box">
+          <img src="girl2.jpg" alt="">
+          <h3>Mary</h3>
+          <div class="stars">
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i style="color:orange;"   class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+          </div>
+          <p>The quality of cleaning is excellent. They are dependable. A morning appointment is very important to me and they always keep that time frame.</p>
+      </div>
+
+  </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+  <h1 class="heading"> <span style="color:orange;">Book</span> now </h1>
+
+  <div class="row">
+      
+  
+      <form action="">
+
+          <div class="inputBox">
+              <input type="text" placeholder="name">
+              <input type="email" placeholder="email">
+          </div>
+
+          <div class="inputBox">
+              <input type="number" placeholder="number">
+              <input type="text" placeholder="service">
+          </div>
+
+          <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+          <input type="submit" value="order now" style="color:black;" class="btn">
+
+      </form>
+
+  </div>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section  -->
+<div class="content1" style="font-size:23px;">
+</div>
+<footer>
+  <div class="main-content">
+    <div class="left box">
+      <h2>About us</h2>
+      <div class="content">
+        <p>Superbai providing you a good staff for work</p>
+        <div class="social">
+          <a href="#"><span class="fab fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+          <a href="https://www.instagram.com/bhishm_saab/"><span class="fab fa-instagram"></span></a>
+          <a href="#"><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="center box">
+      <h2>Address</h2>
+      <div class="content">
+        <div class="place">
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="text">Agra , India </span>
+        </div>
+        <div class="phone">
+          <span class="fas fa-phone-alt"></span>
+          <span class="text">+7078969994</span>
+        </div>
+        <div class="email">
+          <span class="fas fa-envelope"></span>
+          <span class="text">superbai@gmail.com</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="right box">
+      <h2>Contact us</h2>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email *</div>
+            <input type="email" required>
+          </div>
+          <div class="msg">
+            <div class="text">Message *</div>
+            <textarea rows="2" cols="25" required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <center>
+      <span class="credit">Created By <a href="#">Gaurav Bhishm</a> | </span>
+      <span class="far fa-copyright"></span><span> 2022 All rights reserved.</span>
+    </center>
+  </div>
+</footer>
+
+
+
+<!-- loader  -->
+<div class="loader-container">
+  <img src="loader1.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
